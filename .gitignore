@@ -1,0 +1,15 @@
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Configuracion de editores
+.vscode/
+.idea/
+# Mockups de la maqueta, no van en el repo del codigo
+mockups/
+
+# Documentacion, se entrega aparte en PDF
+*.md
+*.docx
+*.pdf

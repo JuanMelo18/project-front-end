@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "La inteligencia artificial llega a las aulas colombianas",
+    "categoria": "Tecnología",
+    "descripcionBreve": "Varios colegios comienzan a usar herramientas de IA para apoyar el aprendizaje de los estudiantes.",
+    "contenido": "Cada vez más instituciones educativas del país están incorporando herramientas de inteligencia artificial en sus clases. Estas tecnologías permiten personalizar el ritmo de aprendizaje, resolver dudas de manera inmediata y apoyar a los docentes en tareas repetitivas. Los expertos señalan que el reto principal es capacitar a los profesores para aprovechar estas herramientas sin dejar de lado el acompañamiento humano.",
+    "imagen": "https://picsum.photos/seed/noticlic-tec1/600/400",
+    "fecha": "2026-09-10",
+    "autor": "Redacción NotiClic"
+  },
+  {
+    "id": 2,
+    "titulo": "5G: qué cambia para los usuarios en las grandes ciudades",
+    "categoria": "Tecnología",
+    "descripcionBreve": "La red 5G promete mayor velocidad y menor latencia, pero su despliegue avanza por etapas.",
+    "contenido": "La tecnología 5G continúa expandiéndose en las principales ciudades. Entre sus ventajas están una mayor velocidad de descarga, menor latencia y la posibilidad de conectar más dispositivos al mismo tiempo. Sin embargo, el despliegue avanza de forma gradual y todavía existen zonas sin cobertura. Los operadores recomiendan verificar la compatibilidad del dispositivo antes de contratar un plan 5G.",
+    "imagen": "https://picsum.photos/seed/noticlic-tec2/600/400",
+    "fecha": "2026-09-08",
+    "autor": "Redacción NotiClic"
+  },
+  {
+    "id": 3,
+    "titulo": "Universidades apuestan por la modalidad híbrida",
+    "categoria": "Educación",
+    "descripcionBreve": "Combinar clases presenciales y virtuales se convierte en la nueva normalidad universitaria.",
+    "contenido": "La modalidad híbrida, que combina encuentros presenciales con actividades virtuales, se está consolidando en la educación superior. Esta forma de estudio ofrece mayor flexibilidad a los estudiantes que trabajan o viven lejos del campus. Las universidades destacan que el éxito de este modelo depende de una buena plataforma tecnológica y de docentes preparados para el entorno digital.",
+    "imagen": "https://picsum.photos/seed/noticlic-edu1/600/400",
+    "fecha": "2026-09-05",
+    "autor": "Redacción NotiClic"
+  },
+  {
+    "id": 4,
+    "titulo": "Crece el interés por los cursos cortos de programación",
+    "categoria": "Educación",
+    "descripcionBreve": "Cada vez más personas buscan aprender a programar en pocos meses para mejorar sus oportunidades laborales.",
+    "contenido": "Los cursos cortos de programación se han vuelto muy populares entre quienes buscan cambiar de carrera o mejorar su perfil profesional. Estos programas se enfocan en habilidades prácticas y suelen durar entre tres y seis meses. Los reclutadores del sector tecnológico valoran cada vez más los proyectos reales por encima de los títulos tradicionales, lo que motiva a muchos a formarse por esta vía.",
+    "imagen": "https://picsum.photos/seed/noticlic-edu2/600/400",
+    "fecha": "2026-09-03",
+    "autor": "Redacción NotiClic"
+  },
+  {
+    "id": 5,
+    "titulo": "Cinco destinos naturales imperdibles para este año",
+    "categoria": "Turismo",
+    "descripcionBreve": "Parques, montañas y playas encabezan la lista de los viajeros que buscan naturaleza.",
+    "contenido": "El turismo de naturaleza sigue ganando adeptos entre quienes buscan desconectarse de la ciudad. Entre los destinos más recomendados este año se encuentran parques nacionales, senderos de montaña y playas poco concurridas. Los expertos aconsejan planear con anticipación, respetar las normas ambientales y contratar guías locales para tener una mejor experiencia y apoyar la economía de la región.",
+    "imagen": "https://picsum.photos/seed/noticlic-tur1/600/400",
+    "fecha": "2026-08-30",
+    "autor": "Redacción NotiClic"
+  },
+  {
+    "id": 6,
+    "titulo": "El turismo rural se consolida como tendencia",
+    "categoria": "Turismo",
+    "descripcionBreve": "Los viajeros buscan experiencias auténticas en el campo, lejos de los destinos masivos.",
+    "contenido": "El turismo rural se ha convertido en una alternativa atractiva para quienes desean vivir experiencias auténticas. Alojarse en fincas, participar en actividades del campo y conocer la gastronomía local son algunas de las propuestas más solicitadas. Este tipo de turismo ayuda a dinamizar la economía de las zonas rurales y promueve un modelo de viaje más sostenible.",
+    "imagen": "https://picsum.photos/seed/noticlic-tur2/600/400",
+    "fecha": "2026-08-27",
+    "autor": "Redacción NotiClic"
+  },
+  {
+    "id": 7,
+    "titulo": "El comercio electrónico sigue en aumento",
+    "categoria": "Comercio",
+    "descripcionBreve": "Las compras en línea crecen impulsadas por la comodidad y las mejores opciones de pago.",
+    "contenido": "El comercio electrónico mantiene un crecimiento sostenido gracias a la comodidad que ofrece y a la variedad de métodos de pago disponibles. Los consumidores valoran poder comparar precios, leer opiniones y recibir sus productos en casa. Para los comercios, el reto está en garantizar entregas rápidas, buena atención al cliente y plataformas seguras que generen confianza.",
+    "imagen": "https://picsum.photos/seed/noticlic-com1/600/400",
+    "fecha": "2026-08-24",
+    "autor": "Redacción NotiClic"
+  },
+  {
+    "id": 8,
+    "titulo": "Pequeños negocios se digitalizan para vender más",
+    "categoria": "Comercio",
+    "descripcionBreve": "Emprendedores adoptan redes sociales y tiendas en línea para llegar a más clientes.",
+    "contenido": "Muchos pequeños negocios están dando el paso hacia la digitalización para ampliar su alcance. El uso de redes sociales, catálogos en línea y pagos digitales les permite llegar a nuevos clientes sin depender únicamente del local físico. Los emprendedores destacan que, aunque el cambio requiere aprendizaje, los resultados en ventas y visibilidad justifican el esfuerzo.",
+    "imagen": "https://picsum.photos/seed/noticlic-com2/600/400",
+    "fecha": "2026-08-20",
+    "autor": "Redacción NotiClic"
+  }
+]

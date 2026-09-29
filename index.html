@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NotiClic - Inicio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header / Navegacion -->
+  <header class="header">
+    <div class="contenedor">
+      <!-- Los iconos son emojis, vienen tal cual del mockup aprobado -->
+      <a href="index.html" class="logo">
+        <span class="logo-icono">📰</span>
+        Noti<span>Clic</span>
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html" class="activo">Inicio</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="detalle.html">Detalle</a></li>
+          <li><a href="favoritos.html">Favoritos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="noticias.html" class="btn">Explorar</a>
+    </div>
+  </header>
+
+  <!-- Hero / Bienvenida -->
+  <section class="hero">
+    <div class="contenedor">
+      <div>
+        <h1>Las noticias que importan, en un solo clic</h1>
+        <p>NotiClic reúne las últimas historias de tecnología, educación, turismo y comercio. Explora, guarda tus favoritas y mantente siempre informado.</p>
+        <div class="hero-acciones">
+          <a href="noticias.html" class="btn">Ver noticias</a>
+          <a href="contacto.html" class="btn btn-secundario">Contáctanos</a>
+        </div>
+      </div>
+      <div class="hero-imagen">
+        [ Imagen principal / banner ]
+      </div>
+    </div>
+  </section>
+
+  <!-- Noticias destacadas -->
+  <section class="seccion contenedor">
+    <h2 class="seccion-titulo">Noticias destacadas</h2>
+    <p class="seccion-subtitulo">Una selección de las historias más leídas de la semana.</p>
+
+    <!-- Las cards se generan con JavaScript desde el JSON. data-destacadas limita a 3. -->
+    <div class="grid-noticias" id="lista-noticias" data-destacadas="true"></div>
+  </section>
+
+  <!-- Llamado a la accion -->
+  <section class="franja-cta">
+    <div class="contenedor">
+      <h2>¿No quieres perderte nada?</h2>
+      <p>Guarda tus noticias favoritas y crea tu lista personalizada de lectura.</p>
+      <a href="favoritos.html" class="btn">Ver mis favoritos</a>
+    </div>
+  </section>
+
+  <!-- Seccion informativa / Testimonios -->
+  <section class="seccion contenedor">
+    <h2 class="seccion-titulo">Lo que dicen nuestros lectores</h2>
+    <p class="seccion-subtitulo">Miles de personas confían en NotiClic para estar informadas cada día.</p>
+
+    <div class="testimonios">
+      <div class="testimonio">
+        <p>"Encuentro todo lo que necesito en un solo lugar. La sección de favoritos es muy útil."</p>
+        <div class="testimonio-autor">
+          <span class="avatar">CM</span>
+          <div>
+            <strong>Carla Méndez</strong><br />
+            <small>Lectora frecuente</small>
+          </div>
+        </div>
+      </div>
+      <div class="testimonio">
+        <p>"Un diseño limpio y noticias siempre actualizadas. Me encanta lo fácil que es navegar."</p>
+        <div class="testimonio-autor">
+          <span class="avatar">JR</span>
+          <div>
+            <strong>Julián Ríos</strong><br />
+            <small>Estudiante</small>
+          </div>
+        </div>
+      </div>
+      <div class="testimonio">
+        <p>"Las categorías me ayudan a filtrar rápido lo que me interesa. Muy recomendado."</p>
+        <div class="testimonio-autor">
+          <span class="avatar">LP</span>
+          <div>
+            <strong>Laura Peña</strong><br />
+            <small>Profesional TI</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <div class="logo">📰 Noti<span>Clic</span></div>
+          <p>Tu plataforma de noticias moderna. Explora, guarda y comparte las historias que importan.</p>
+        </div>
+        <div>
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="favoritos.html">Favoritos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="noticias.html">Tecnología</a></li>
+            <li><a href="noticias.html">Educación</a></li>
+            <li><a href="noticias.html">Turismo</a></li>
+            <li><a href="noticias.html">Comercio</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <ul>
+            <li>📧 contacto@noticlic.com</li>
+            <li>📞 +57 300 000 0000</li>
+            <li>📍 Bogotá, Colombia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-abajo">
+        © 2026 NotiClic. Todos los derechos reservados. | Proyecto académico Front-end.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/favoritos.js"></script>
+  <script src="js/noticias.js"></script>
+</body>
+</html>

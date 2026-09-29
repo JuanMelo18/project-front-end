@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NotiClic - Detalle de noticia</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header / Navegacion -->
+  <header class="header">
+    <div class="contenedor">
+      <!-- Los iconos son emojis, vienen tal cual del mockup aprobado -->
+      <a href="index.html" class="logo">
+        <span class="logo-icono">📰</span>
+        Noti<span>Clic</span>
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="detalle.html">Detalle</a></li>
+          <li><a href="favoritos.html">Favoritos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="noticias.html" class="btn btn-secundario">Volver</a>
+    </div>
+  </header>
+
+  <!-- Detalle de la noticia -->
+  <div class="contenedor">
+    <!-- Aca cargo la noticia con JavaScript segun el id que venga en la URL -->
+    <article class="detalle" id="detalle-noticia"></article>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <div class="logo">📰 Noti<span>Clic</span></div>
+          <p>Tu plataforma de noticias moderna. Explora, guarda y comparte las historias que importan.</p>
+        </div>
+        <div>
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="favoritos.html">Favoritos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="noticias.html">Tecnología</a></li>
+            <li><a href="noticias.html">Educación</a></li>
+            <li><a href="noticias.html">Turismo</a></li>
+            <li><a href="noticias.html">Comercio</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <ul>
+            <li>📧 contacto@noticlic.com</li>
+            <li>📞 +57 300 000 0000</li>
+            <li>📍 Bogotá, Colombia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-abajo">
+        © 2026 NotiClic. Todos los derechos reservados. | Proyecto académico Front-end.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/favoritos.js"></script>
+  <script src="js/detalle.js"></script>
+</body>
+</html>
